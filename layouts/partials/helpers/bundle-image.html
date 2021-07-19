@@ -13,4 +13,5 @@
     {{ $img = $img.Resize $options }}
   {{ end }}
 {{ end }}
+{{ $img = $img.Filter images.Grayscale }}
 <img src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}" {{ if $hasWidth }}width="{{ $img.Width }}" height="{{ $img.Height }}" {{ end }}class="{{ .class }}" loading="lazy">

@@ -1,0 +1,45 @@
+<footer class="py-5">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-between border-bottom">
+      <div class="mb-5">
+        <a class="d-inline-block" href="{{ site.Home.RelPermalink }}">
+          {{ $logo := resources.Get "images/logo.svg" }}
+          <div class="text-primary" style="width: 45px;">
+            {{ $logo.Content | safeHTML }}
+          </div>
+        </a>
+      </div>
+      <div>
+        <ul class="list-unstyled d-flex flex-wrap align-items-center">
+          <li class="me-4">
+            <a class="link-secondary" href="#">
+              About
+            </a>
+          </li>
+          <li class="me-4">
+            <a class="link-secondary" href="#">
+              Company
+            </a>
+          </li>
+          <li class="me-4">
+            <a class="link-secondary" href="#">
+              Services
+            </a>
+          </li>
+          <li>
+            <a class="link-secondary" href="#">
+              Testimonials
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="mb-5"></div>
+  <div class="container">
+  <div class="d-flex flex-wrap align-items-center justify-content-between">
+    <p>
+      All rights reserved © Colorblind Hedgehogs Inc. 2021
+    </p>
+  </div>
+</footer>

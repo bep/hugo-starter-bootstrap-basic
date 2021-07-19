@@ -18,14 +18,15 @@
     <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
     
     {{/* SEO etc. */}}
-    {{ partial "head/base.html" . }}
+    {{ partial "sections/head/base.html" . }}
     {{ if hugo.IsProduction }}
-      {{ partial "head/production.html" . }}
+      {{ partial "sections/head/production.html" . }}
     {{ else }}
-      {{ partial "head/development.html" . }}
+      {{ partial "sections/head/development.html" . }}
     {{ end }}
   </head>
   <body>
+    {{ partial "sections/menus/main.html" . }}
     {{ block "main" . }}{{ end }}
   </body>
 </html>
