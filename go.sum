@@ -1,0 +1,3 @@
+github.com/gohugoio/hugo-mod-bootstrap-scss-v5 v0.0.0-20210719094835-beb627c30c3c h1:QEA2RHCzpFo2p760T/vKzvRUE0BPHcvd/Bv/SNTIXcU=
+github.com/gohugoio/hugo-mod-bootstrap-scss-v5 v0.0.0-20210719094835-beb627c30c3c/go.mod h1:OkLoYy/rU+UFHFd/TPzRxfgXkaOtqqW+mEQGBUzydk4=
+github.com/twbs/bootstrap v5.0.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

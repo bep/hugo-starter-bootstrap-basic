@@ -1,0 +1,9 @@
+{{- $images := $.Resources.ByType "image" -}}
+{{- $featured := $images.GetMatch "*feature*" -}}
+{{- if not $featured }}
+  {{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}
+{{ end -}}
+{{ if not $featured }}
+  {{ $featured = resources.Get "images/placeholder.jpg" }}
+{{ end }}
+{{ return $featured }}

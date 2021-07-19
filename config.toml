@@ -1,0 +1,14 @@
+
+baseURL = "https://example.org"
+
+disableKinds = ["page", "section", "taxonomy", "term"]
+
+[outputs]
+home = ["HTML"]
+
+[module]
+[module.hugoVersion]
+extended = true
+min = "0.75.0"
+[[module.imports]]
+path = "github.com/gohugoio/hugo-mod-bootstrap-scss-v5"
