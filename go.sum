@@ -1,5 +1,5 @@
 github.com/bep/hugo-dummy-content v0.0.0-20200213160018-e1f679033bf4 h1:2B9xUmkpHhpj/hCND0oeRYPE6TtuFraFDeCwlL5ajfU=
 github.com/bep/hugo-dummy-content v0.0.0-20200213160018-e1f679033bf4/go.mod h1:xoSEb9mk9xkY7Sd0oN6AB8gDsvbal8YKKIicKcsrqcA=
-github.com/gohugoio/hugo-mod-bootstrap-scss-v5 v0.0.0-20210719094835-beb627c30c3c h1:QEA2RHCzpFo2p760T/vKzvRUE0BPHcvd/Bv/SNTIXcU=
-github.com/gohugoio/hugo-mod-bootstrap-scss-v5 v0.0.0-20210719094835-beb627c30c3c/go.mod h1:OkLoYy/rU+UFHFd/TPzRxfgXkaOtqqW+mEQGBUzydk4=
+github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.90000.90200 h1:NoVLwjTxNE/guJK54/lpnDA9ZxUKOWfygRQTBj1Z5CU=
+github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.90000.90200/go.mod h1:Q1ISmjCIVfrIB5D5Nf6zBwYMc4zInW5nrULHhdXco1w=
 github.com/twbs/bootstrap v5.0.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
