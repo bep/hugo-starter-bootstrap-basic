@@ -1,0 +1,14 @@
+{
+  "name": "hugo-starter-bootstrap-basic",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/272253c1-4f4f-4b6f-b95d-c15e3f496a99/deploy-status)](https://app.netlify.com/sites/hugo-bootstrap-basic/deploys)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+		"bootstrap": "5.3.8"
+	}
+}

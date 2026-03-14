@@ -10,12 +10,11 @@
     {{ if hugo.IsProduction }}
       {{ $options := dict "enableSourceMap" false "outputStyle" "compressed" }}
     {{ end }}
-    {{ $styles := resources.Get "scss/styles.scss" }}
-    {{ $styles = $styles | css.Sass $options }}
-    {{ if hugo.IsProduction }}
-      {{ $styles = $styles | fingerprint }}
+    {{ with (templates.Defer (dict "key" "global-css")) }}
+      {{ $opts := dict "minify" false "purge" (dict "enable" true "safelist" slice) }}
+      {{ $css := resources.Get "css/main.css" | css.Build $opts }}
+      <link rel="stylesheet" href="{{ $css.RelPermalink }}" />
     {{ end }}
-    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
 
     {{/* SEO etc. */}}
     {{ partial "sections/head/base.html" . }}
